@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>QAZANOK — курьерам</title>
+	<link
+			href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic"
+			rel="stylesheet"
+	/>
+	<link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<!-- <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+	<script type="text/javascript">
+		var map;
+
+		DG.then(function () {
+			map = DG.map('map', {
+				center: [54.98, 82.89],
+				zoom: 13
+			});
+
+			DG.marker([54.98, 82.89]).addTo(map).bindPopup('Вы кликнули по мне!');
+		});
+	</script> -->
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<a href="index.html" class="logo">
+				<img src="img/icon/qazanok.svg" alt="Logo"/>
+			</a>
+			<label class="address">
+				<input type="text" class="input input-address" placeholder="Адрес доставки"/>
+			</label>
+			<div class="buttons">
+				<button class="button button-primary button-auth">
+					<span class="button-auth-svg"></span>
+					<span class="button-text">Войти</span>
+				</button>
+				<button class="button" id="cart-button">
+					<span class="button-cart-svg"></span>
+					<span class="button-text">Корзина</span>
+				</button>
+			</div>
+		</header>
+	</div>
+	<!-- /.container  -->
+
+	<main class="main">
+		<div class="container">
+			<section class="menu">
+				<div class="section-heading">
+					<h2 class="section-title restaurant-title">Хотите стать курьером?</h2>
+					<div class="card-info">
+						<div class="rating1">
+							У нас есть выодное предложение для
+							<span class="bold">Вас</span>
+						</div>
+						<div class="price1">+7 775 030 95 55</div>
+						<!-- <div class="category1">Пицца</div> -->
+					</div>
+					<!-- /.card-info -->
+				</div>
+				<div class="cards cards-menu">
+					<div class="card1">
+						<div id="partner">
+							<img src="https://i.gifer.com/8b3F.gif" alt="gif" width="100%">
+						</div>
+						<div class="card-text">
+							
+							<div class="card-heading">
+								<h3 class="card-title1 card-title-reg"> Работайте сами на себя по гибкому графику, получайте достойный заработок и знакомьтесь с интересными местами вашего
+								города в процессе работы. Регистрируйтесь уже сегодня и начните доставлять первые заказы менее, чем за сутки.</h3>
+								
+							</div>
+							<div class="card-heading1">
+								<img src='img/partnership/money.svg' class='iconka'><h3 class="card-title1 card-title-reg">Ваш заработок <br><span class='ingredients'>Сумма, которую вы зарабатываете за каждый заказ, зависит от вашего опыта и оценок.
+</span></h3>
+
+							</div>
+							<!-- /.card-heading -->
+							<hr width="100%" color='#eee'></hr>
+							<div class="card-heading1">
+								<img src='img/partnership/calendar.svg' class='iconka'><h3 class="card-title1 card-title-reg">Сотрудничайте, когда угодно
+ <br><span class='ingredients'>Сотрудничайте и наслаждайтесь полной свободой. Только вы выбираете, где и какие заказы принимать.
+</span></h3>
+							</div>
+							<hr width="100%" color='#eee'>
+							</hr>
+							<div class="card-heading1">
+								<img src='img/partnership/transport.svg' class='iconka'>
+								<h3 class="card-title1 card-title-reg">Вам понадобится...
+
+ <br><span class='ingredients'>Улыбка "на все 32", транспортное средство (мотоцикл, велосипед или автомобиль) и телефон iPhone или Android. Вы должны
+быть старше 18 лет.
+
+
+									</span></h3>
+							</div>
+							<hr width="100%" color='#eee'>
+							</hr>
+							<!-- <div class="card-heading1">
+								<img src='img/partnership/card.svg' class='iconka'>
+								<h3 class="card-title1 card-title-reg">ЛИЧНЫЙ КАБИНЕТ
+ <br><span class='ingredients'>ДЛЯ КОНТРОЛЯ ЗАКАЗОВ И УПРАВЛЕНИЯ БЛЮДАМИ
+
+									</span></h3>
+							</div> -->
+							<!-- /.card-info -->
+							<!-- <div class="card-buttons">
+								<button class="button button-primary button-add-cart">
+									<span class="button-card-text">В корзину</span>
+									<span class="button-cart-svg"></span>
+								</button>
+								<strong class="card-price-bold">545 ₽</strong>
+							</div> -->
+						</div>
+						<!-- /.card-text -->
+					</div>
+					<!-- /.card -->
+
+
+				</div>
+				<!-- /.cards -->
+			</section>
+		</div>
+		<!-- /.container -->
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-block">
+				<img src="img/icon/qazanok.svg" alt="logo" class="logo footer-logo"/>
+				<nav class="footer-nav">
+					<a href="partnership.html" class="footer-link">Ресторанам </a>
+					<a href="#" class="footer-link">Курьерам</a>
+					<a href="partners.html" class="footer-link">Наши партнеры</a>
+					<a href="footer.html" class="footer-link">Контакты</a>
+				</nav>
+				<div class="social-links">
+					<a href="https://www.instagram.com/?hl=ru" class="social-link"><i class="fab fa-instagram fa-2x  "></i></a>
+					<a href="https://www.facebook.com/" class="social-link"><i class="fab fa-facebook-square fa-2x"></i></a>
+					<a href="https://vk.com/" class="social-link"><i class="fab fa-vk fa-2x "></i></a>
+				</div>
+				<!-- /.social-links -->
+			</div>
+			<!-- /.footer-block -->
+		</div>
+	</footer>
+
+	<div class="modal modal-cart">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h3 class="modal-title">Корзина</h3>
+				<button class="close">&times;</button>
+			</div>
+			<!-- /.modal-header -->
+			<div class="modal-body">
+				<div class="food-row">
+					<span class="food-name">Ролл угорь стандарт</span>
+					<strong class="food-price">250 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Ролл угорь стандарт</span>
+					<strong class="food-price">250 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Ролл угорь стандарт</span>
+					<strong class="food-price">250 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+				<div class="food-row">
+					<span class="food-name">Ролл угорь стандарт</span>
+					<strong class="food-price">250 ₽</strong>
+					<div class="food-counter">
+						<button class="counter-button">-</button>
+						<span class="counter">1</span>
+						<button class="counter-button">+</button>
+					</div>
+				</div>
+				<!-- /.foods-row -->
+			</div>
+			<!-- /.modal-body -->
+			<div class="modal-footer">
+				<span class="modal-pricetag">1250 ₽</span>
+				<div class="footer-buttons">
+					<button class="button button-primary">Оформить заказ</button>
+					<button class="button clear-cart">Отмена</button>
+				</div>
+			</div>
+			<!-- /.modal-footer -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>

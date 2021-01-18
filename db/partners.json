@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Пицца Макс",
+    "time_of_delivery": 50,
+    "stars": 4.5,
+    "price": 900,
+    "kitchen": "Пицца",
+    "image": "img/pizza-plus/pizza11.jpg",
+    "products": "pizza-plus.json"
+  },
+  {
+    "name": "KrgSushi",
+    "time_of_delivery": 60,
+    "stars": 4.3,
+    "price": 1200,
+    "kitchen": "Суши, роллы",
+    "image": "img/tanuki/sushi.jpg",
+    "products": "tanuki.json"
+  },
+  {
+    "name": "Qaravan",
+    "time_of_delivery": 40,
+    "stars": 4.4,
+    "price": 4500,
+    "kitchen": "Восточная кухня",
+    "image": "img/food-band/Besh.png",
+    "products": "food-band.json"
+  },
+  {
+    "name": "Быстрик",
+    "time_of_delivery": 30,
+    "stars": 4.1,
+    "price": 1000,
+    "kitchen": "Фаст фуд",
+    "image": "img/gusi-lebedi/fastfood.png",
+    "products": "palki-skalki.json"
+  },
+  {
+    "name": "Емеля",
+    "time_of_delivery": 75,
+    "stars": 4.7,
+    "price": 1000,
+    "kitchen": "Русская кухня",
+    "image": "img/gusi-lebedi/emelya.jpg",
+    "products": "gusi-lebedi.json"
+  },
+  {
+    "name": "БигСтейк",
+    "time_of_delivery": 45,
+    "stars": 4.6,
+    "price": 1500,
+    "kitchen": "Стейки",
+    "image": "img/pizza-burger/steik.png",
+    "products": "pizza-burger.json"
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fb01",
+    "name": "Бешбармак",
+    "description": "По традиционному рецепту",
+    "price": 4500,
+    "image": "img/food-band/besh.jpg"
+  },
+  {
+    "id": "fb02",
+    "name": "Гуйру лагман",
+    "description": "Говядина, пекинская капуста, полугорький перец, сельдерей, тесто",
+    "price": 1000,
+    "image": "img/food-band/lagman.jpg"
+  },
+  {
+    "id": "fb03",
+    "name": "Манты",
+    "description": "Рубленая говядина, тесто",
+    "price": 1000,
+    "image": "img/food-band/manty.jpg"
+  },
+  {
+    "id": "fb04",
+    "name": "Плов ханский",
+    "description": "Рис-лазер, нут, изюм, говядина,  красная и желтая морковь,  перепелиные яйца, казы",
+    "price": 1200,
+    "image": "img/food-band/plov.png"
+  },
+  {
+    "id": "fb05",
+    "name": "Казан Кебаб",
+    "description": "Картофель, молодой барашек, огурцы, помидоры,лук, зелень",
+    "price": 2000,
+    "image": "img/food-band/kebab.jpg"
+  },
+  {
+    "id": "fb06",
+    "name": "Куырдак классический",
+    "description": "Картофель, ливер, сердце, субпродукты, лучок, приправленное розмарином",
+    "price": 1400,
+    "image": "img/food-band/quyrdaq.jpg"
+  }
+]
